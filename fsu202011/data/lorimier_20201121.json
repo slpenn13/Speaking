@@ -3,7 +3,7 @@
         "maturity", "rate", "zero", "type", "origin", "spot", "yield", "forward", "loaded"], 
         "date_format": "%Y-%m-%d", "split": "-", "date_adjust": "follow",
         "date_tol": 0.12, "append_reset": 0, "override": 1 },
-    "data": { "file": "./data/Fidelity_BondPrices_20201030_0030.csv"
+    "data": { "file": "./data/BondPrices_20201030.csv"
     },
   "filter" : [ { "first": { "exclude": "", "key": "classification", "func": "startswith", "value": "zero", "type": "text" },
                "second": { "exclude": "", "key": "classification", "func": "endswith", "value": "ed principal", "type": 
